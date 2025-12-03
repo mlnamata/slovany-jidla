@@ -89,7 +89,7 @@ export default function Home(){
             return (
               <article className="card" key={r.restaurant_id}>
                 <h2>{r.restaurant_name} {r.error ? <span style={{color:'#ef4444',fontSize:'0.9rem'}}>— chyba</span> : null}</h2>
-                <div className="subtitle">ID: {r.restaurant_id}</div>
+        
 
                 {/* pokud je chyba stahování */}
                 {r.error ? (
